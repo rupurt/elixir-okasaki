@@ -42,6 +42,10 @@ defmodule Okasaki do
   The implementation is slightly more involved than the Amortized version though, which means that it might be slower for some
   inputs.
 
+  ### ConstantBoundedQueue
+
+  TODO...
+
   ### ErlangQueue/ErlangDeque
 
   These are simple wrappers around Erlang's built-in `:queue` module, which is also a version of an amortized deque.

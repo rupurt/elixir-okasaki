@@ -47,6 +47,10 @@ This means we have a _constant_ O(1) remove speed.
 The implementation is slightly more involved than the Amortized version though, which means that it might be slower for some
 inputs.
 
+### ConstantBoundedQueue
+
+TODO...
+
 ### ErlangQueue/ErlangDeque
 
 These are simple wrappers around Erlang's built-in `:queue` module, which is also a version of an amortized deque.
